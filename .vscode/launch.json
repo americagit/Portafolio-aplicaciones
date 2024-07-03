@@ -1,0 +1,47 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-DemoApplication<demo>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "sust.demo.DemoApplication",
+      "projectName": "demo",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=54743 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=demo"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-BooksAuthorsApplication<books_authors>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "sust.books_authors.BooksAuthorsApplication",
+      "projectName": "books_authors",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=54229 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=books_authors"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-TvShowsApplication<tv_shows>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "sust.tv_shows.TvShowsApplication",
+      "projectName": "tv_shows",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=54406 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=tv_shows"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ElMuroApplication<el_muro>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "sust.el_muro.ElMuroApplication",
+      "projectName": "el_muro",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

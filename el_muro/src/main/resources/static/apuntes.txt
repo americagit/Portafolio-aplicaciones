@@ -1,0 +1,12 @@
+Como paso uno
+creamos modelo message mas interface
+luego vistas y modelos de usuario 
+/ => El Muro
+/login => Formulario de Login
+  (username, password)
+/register => Formulario de Registro
+  (username, name, password, passConfirm)
+
+
+
+2. con base de dato hecha mas modelos y vistas visulizandose se trabaja ahora 

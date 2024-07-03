@@ -1,0 +1,12 @@
+Dependencias utilizadas:
+Spring Boot DevTools
+Lombok
+Spring Web
+Thymeleaf
+JDBC API SQL
+PostgreSQL Driver
+Spring Data JPA
+validación I/o
+
+nombre base de datos:
+el_muro, sin tablas 
